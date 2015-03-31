@@ -1,5 +1,6 @@
 echo off
 color a
+cls
 echo are you leaving so soon?
 choice /m "Y for logoff, N for don't"
 goto answer%ERRORLEVEL%
